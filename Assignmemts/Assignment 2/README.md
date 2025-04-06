@@ -1,11 +1,43 @@
-# Sample Snack app
+# 📞 React Native Contact App (Expo Snack)
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A simple and stylish contact manager built in **React Native** using **Expo Snack** — no navigation libraries needed!
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+---
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## ✨ Features
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- 📋 Categorized contacts: Family, Friends, Work
+- 🔍 Search by name or phone number
+- 👤 Tap a contact to view details
+- 🎨 Soft pastel-themed UI
+- ⚡ Lightweight and fast
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+---
+
+## 🖼 UI Flow
+
+1. **Contacts Screen**
+2. **Search Bar**
+3. **Detailed View on Tap**
+
+---
+
+## 🚀 Try it Online
+
+👉 Open in Snack: [https://snack.expo.dev/](https://snack.expo.dev/)
+
+Paste the full code into `App.js` and preview it live on:
+
+- 📱 Your phone with the **Expo Go** app
+- 💻 The web-based emulator in your browser
+
+---
+
+## 💻 Local Setup
+
+```bash
+npm install -g expo-cli
+expo init contact-app
+cd contact-app
+# Replace App.js with the code above
+expo start
